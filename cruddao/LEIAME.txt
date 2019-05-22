@@ -1,0 +1,7 @@
+1 - Certifique-se de ter iniciado o Apache e o MySQL no painel de controle do XAMPP;
+
+2 - Extraia/copie o conteúdo da pasta do projeto em xampp/htdocs;
+
+3 - Crie o banco de dados utilizando o script: scriptsCriacaoBD.txt. Execute os comandos no PHPMyAdmin. Verifique se o usuario root possui senha="";
+
+4 - Abra o projeto no Netbeans ou carregue diretamente no navegador: localhost/cruddao/visao/index.php. Verifique o localhost de acesso.

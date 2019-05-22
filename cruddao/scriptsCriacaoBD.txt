@@ -1,0 +1,13 @@
+CREATE DATABASE dswbanco;
+
+CREATE TABLE IF NOT EXISTS login (
+	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	email VARCHAR(255) NOT NULL,
+	senha VARCHAR(255) NOT NULL,
+	criacao TIMESTAMP
+);
+
+INSERT INTO login (email, senha) VALUES ('paulo@meuemail.com', 'uamtop');
+INSERT INTO login (email, senha) VALUES ('roberta@tantofaz.com', 'computacao');
+INSERT INTO login (email, senha) VALUES ('emerson@email.com', 'segredo');
+INSERT INTO login (email, senha) VALUES ('vingador@zipmail.com', '123456');
